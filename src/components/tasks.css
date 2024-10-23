@@ -1,0 +1,26 @@
+.tasks-section {
+  background-color: #f7f7f7;
+  padding: 15px;
+  border-radius: 15px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.task-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+  margin-top: 10px;
+}
+
+.task-card p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.task-card a {
+  color: #0077b6;
+  font-weight: bold;
+  text-decoration: none;
+}

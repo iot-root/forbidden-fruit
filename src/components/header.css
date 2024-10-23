@@ -1,0 +1,35 @@
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #f7f7f7;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+}
+
+.profile-icon {
+  background-image: url('/path/to/profile-icon.svg'); /* Replace with actual icon */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.settings-icon {
+  background-image: url('/path/to/settings-icon.svg'); /* Replace with actual icon */
+  background-repeat: no-repeat;
+  background-position: center;
+}

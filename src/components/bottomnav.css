@@ -1,0 +1,45 @@
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 15px 15px 0px 0px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.nav-item {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-icon {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+.nav-icon.home {
+  background-image: url('/path/to/home-icon.svg');
+}
+
+.nav-icon.journal {
+  background-image: url('/path/to/journal-icon.svg');
+}
+
+.nav-icon.shop {
+  background-image: url('/path/to/shop-icon.svg');
+}
+
+.nav-icon.help {
+  background-image: url('/path/to/help-icon.svg');
+}
+
+p {
+  font-size: 0.9rem;
+  color: #333;
+}
