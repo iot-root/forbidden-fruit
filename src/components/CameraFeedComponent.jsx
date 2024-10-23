@@ -2,10 +2,9 @@ import React from 'react';
 
 const CameraFeedComponent = () => {
   return (
-    <div className="camera-feed">
-      <h2>Live Camera Feeds</h2>
-      <video src="http://your-dev-board-ip:port/camera1-stream" controls autoPlay />
-      <video src="http://your-dev-board-ip:port/camera2-stream" controls autoPlay />
+    <div className="camera-feed">  
+      <h2>AI Camera Feed</h2>
+      <img src="http://localhost:5000/video_feed" alt="Live Camera Feed" />
     </div>
   );
 };
